@@ -1,0 +1,9 @@
+name: PartyPlugin
+version: '${project.version}'
+main: me.modione.partyplugin.PartyPlugin
+api-version: 1.17
+authors: [ modione ]
+
+commands:
+  dropparty:
+    description: a command to gift random items to all other players

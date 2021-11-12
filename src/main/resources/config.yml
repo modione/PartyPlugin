@@ -1,0 +1,17 @@
+################################################################################################
+# Changes in this file will only take affect after reloading the server. You can use color
+# codes in every text in this config like so:
+# §4 Dark Red; §c Red; §6 Gold; §e Yellow; §2 Dark Green; §a Green; §b Aqua; §3 Dark Aqua;
+# §1 Dark Blue; §9 Blue; §d Light Purple; §5 Dark Purple; §f White; §8 Dark Gray; §0 Black;
+################################################################################################
+
+
+# this will be messaged to every player when a Drop-Party is triggered
+# if you don't want this just leave it empty. You can use $PLAYER$ to display the name of the
+# player who made the Drop-Party
+broadcast-message: §c$PLAYER$ §bis hosting a Drop-Party!
+# this will be messaged to a player when he gets an item due to
+# the Drop-Party. You can use %PLAYER% to display the name of the
+# player who made the Drop-Party, also you can use %ITEM% to display
+# the item the player got gifted.
+player-message: §bYou got §6$ITEM$ §bfrom the Drop-Party §c$PLAYER$ §bis hosting
